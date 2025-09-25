@@ -55,3 +55,20 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+.palestrantes {
+  background: #e3f2fd;
+  border: 1px solid #90caf9;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+}
+
+.palestrantes ul {
+  list-style-type: circle;
+  padding-left: 1.5rem;
+}
+
+.palestrantes li {
+  margin-bottom: 0.5rem;
+}
