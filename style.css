@@ -12,41 +12,45 @@ body {
   background: var(--cor-fundo);
   color: var(--cor-texto);
   margin: 0;
-  background-color: #e5e7eb; /* nova cor de fundo */
-}
-
-h2 {
-  color: blue;
-  padding-bottom: 10px;
 }
 
 header {
   background: var(--cor-header);
   padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 2px solid #d1d5db;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 1.5rem;
 }
 
 header nav a {
   margin-right: 1rem;
   text-decoration: none;
   color: var(--cor-link);
-  font-weight: 500;
-}
-
-header nav a:hover {
-  text-decoration: underline;
 }
 
 main {
   padding: 1rem;
+}
+
+/* Conflito direto com o estilo da Atividade 1 */
+h2 {
+  color: darkgreen;
+  text-transform: uppercase;
+}
+
+/* Estilo da seção Agenda */
+.agenda {
+  background: #e8f5e9;
+  border: 1px solid #c8e6c9;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+}
+
+.agenda ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+.agenda li {
+  margin-bottom: 0.5rem;
 }
 
 footer {
@@ -54,35 +58,4 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem;
-}
-
-.palestrantes {
-  background: #e3f2fd;
-  border: 1px solid #90caf9;
-  padding: 1rem;
-  margin-top: 2rem;
-  border-radius: 8px;
-}
-
-.palestrantes ul {
-  list-style-type: circle;
-  padding-left: 1.5rem;
-}
-
-.palestrantes li {
-  margin-bottom: 0.5rem;
-}
-
-footer .redes-sociais {
-  margin-top: 0.5rem;
-}
-
-footer .redes-sociais a {
-  color: #fff;
-  margin: 0 0.5rem;
-  text-decoration: none;
-}
-
-footer .redes-sociais a:hover {
-  text-decoration: underline;
 }
